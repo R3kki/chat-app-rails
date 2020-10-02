@@ -1,0 +1,8 @@
+= Introduction =
+
+Learnings Rails by building a chat app.
+
+= Built With =
+* Ruby 2.7.2
+* Rails 6.0.3.3
+* redis-cli 5.0.7
