@@ -6,3 +6,9 @@ Learnings Rails by building a chat app.
 * Ruby 2.7.2
 * Rails 6.0.3.3
 * redis-cli 5.0.7
+
+= Getting Started =
+WSL2 / Linux Instructions:
+1. (install) and run redis: `redis-server`
+2. run the server: `rails s`
+3. go to localhost:3000
