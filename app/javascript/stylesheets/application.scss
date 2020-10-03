@@ -3,6 +3,8 @@
    overflow-y: hidden;
    .message {
       display: inline-block;
+      min-height: 59px;
+
       .content {
          background-color: #eeeeee;
          padding: 8px 16px;
