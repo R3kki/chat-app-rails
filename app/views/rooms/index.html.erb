@@ -20,7 +20,15 @@
         <div class="chat-room">
           <p><%= @room.name %></p>
           <% @room.messages.each do |message| %>
-            <p><%= message.content %> - <%= message.user.username %></p>
+            <div class="message mb-2 <%= 'me' if message.user == current_user %>">
+              <div class="content">
+                <%= message.content %>
+              </div>
+              <div class="author">
+                <%= message.user.username %>
+              </div>
+            </div>
+            <br>
           <% end %>
           <div class="chat-box">
             <%= render 'messages/form', message: Message.new, room: @room %>
