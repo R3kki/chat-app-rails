@@ -1,4 +1,5 @@
-<div id="user-id" data-user_id="<%= current_user.id %>"></div>
+<div id="room-id" data-room-id="<%= @room.try(:id) %>"></div>
+<div id="user-id" data-user-id="<%= current_user.id %>"></div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-3">
